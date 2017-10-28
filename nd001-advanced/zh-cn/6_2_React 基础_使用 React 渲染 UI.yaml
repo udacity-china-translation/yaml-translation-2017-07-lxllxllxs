@@ -194,9 +194,9 @@ concepts:
                 'My name is Michael, and I love porcupines.'
             );
             ```
-          correct_feedback: React 的 `.createElement()` 方法获得元素的说明并返回简单的 JavaScript 对象。
+          correct_feedback: React 的 `.createElement()` 方法获得一个元素的说明并返回一个简单的 JavaScript 对象。
           video_feedback: null
-          default_feedback: 我起来不太正确。还记得我在截屏视频中将 `element` 变量输出到控制台了吗？显示了什么？
+          default_feedback: 在我看来这不太对。还记得我在截屏视频中将 `element` 变量输出到控制台了吗？显示了什么？
           answers:
             - id: a1497640684246
               text: DOM 节点的引用
@@ -286,14 +286,14 @@ concepts:
           React.createElement( /* type */, /* props */, /* content */ );  
           ```
            
-          我们详细分析下每个项目可以为：
+          我们详细分析下每个项目：
            
           * `type` – 字符串或 React 组件
 
               可以是任何现有 HTML 元素字符串（例如 `‘p’`、`‘span’` 或 `‘header’`），或者你可以传递 React _组件_（稍后我们将使用 JSX 创建组件）。
 
 
-          * `props` – 为 `null` 或一个对象
+          * `props` – `null` 或一个对象
 
               这是 HTML 属性的对象以及关于该元素的自定义数据。
            
@@ -520,7 +520,7 @@ concepts:
 
           > Syntax error: Adjacent JSX elements must be wrapped in an enclosing tag
 
-          因为我们知道 JSX 只是 `.createElement()` 的语法扩展，因此是合理的；`.createElement()` 只获得一个标记名称（字符串）作为其第一个参数。
+          因为我们知道 JSX 只是 `.createElement()` 的语法扩展，因此是合理的；`.createElement()` 只获得一个标签名（字符串）作为其第一个参数。
         instructor_notes: ''
         resources: null
       - id: 357394
@@ -534,7 +534,7 @@ concepts:
         text: |-
           ## 组件简介
 
-          到目前为止，我们已经看到 `.createElement()` 和 JSX 可以帮助我们生成一些 HTML。但是，通常我们将使用 React 的主要功能之一来构建 UI：组件。组件是指可以_重复利用_的代码段，最终负责返回要渲染到网页上的 HTML。很多时候，你将看到用 JSX 编写的 React 组件。
+          到目前为止，我们已经看到 `.createElement()` 和 JSX 可以帮助我们生成一些 HTML。但是，通常我们将使用 React 的主要功能之一：组件,来构建 UI。组件是指可以_重复利用_的代码段，最终负责返回要渲染到网页上的 HTML。很多时候，你将看到用 JSX 编写的 React 组件。
 
           因为 React 的侧重点是简化应用的 UI 构建过程，因此在任何 React 组件类中，只有一个方法是必须的：`render()`。
 
@@ -618,7 +618,7 @@ concepts:
         key: 8ae8e90c-bfef-4353-ba41-62461cb28d00
         locale: zh-cn
         version: 1.0.0
-        title: 16 - 创建 React 应用
+        title: 创建 React 应用
         semantic_type: VideoAtom
         updated_at: 'Wed Sep 06 2017 00:10:16 GMT+0000 (UTC)'
         is_public: true
@@ -648,20 +648,22 @@ concepts:
         text: |-
           ## 搭建 React 应用框架
 
-          JSX 很棒，但是它需要反编译为普通的 JavaScript，然后才能提交给浏览器。我们通常使用 [Babel](https://github.com/babel/babel) 等转译器来为我们实现转译。我们可以通过建立工具运行 Babel，例如 [Webpack](https://github.com/facebookincubator/create-react-app)，它可以帮助我们绑定网络项目的所有资源（JavaScript 文件、CSS、图片等）。
+          JSX 很棒，但是它需要反编译为普通的 JavaScript，然后才能提交给浏览器。我们通常使用 [Babel](https://github.com/babel/babel) 等转译器来为我们实现转译。我们可以通过构建工具运行 Babel，例如 [Webpack](https://github.com/facebookincubator/create-react-app)，它可以帮助我们绑定网络项目的所有资源（JavaScript 文件、CSS、图片等）。
 
           为了简化这一初始配置过程，我们可以使用 Facebook 的 Create React App 包来为我们实现所有设置！该工具非常实用，可以帮助我们开始构建 React 应用，因为它为我们设置了一切，我们无需进行任何配置！请 (通过 [npm](https://www.npmjs.com/get-npm) 命令行）安装 Create React App，然后我们将讲解它的强大之处。
            
           ```bash
           npm install -g create-react-app
           ```
+
+          如果你在安装全局包时发现错误，请随时在npm文档中查看[this article]（https://docs.npmjs.com/getting-started/fixing-npm-permissions）。 请注意，要了解全局包的安装位置，您可以在控制台中运行“npm list -g”（更多信息[here]（https://stackoverflow.com/questions/5926672/where-does-npm-install-packages））。
         instructor_notes: ''
         resources: null
       - id: 357401
         key: 17471062-f9ee-4b9c-b75b-5da2a0492f06
         locale: zh-cn
         version: 1.0.0
-        title: 17 - 安装和使用 Create React App 1
+        title: 安装和使用 Create React App 1
         semantic_type: VideoAtom
         updated_at: 'Wed Sep 06 2017 00:10:16 GMT+0000 (UTC)'
         is_public: true
@@ -725,7 +727,7 @@ concepts:
         key: 35cde7d8-eb9e-425d-86ac-6a5e39e7fcec
         locale: zh-cn
         version: 1.0.0
-        title: 19 - Inspect Contacts 项目
+        title: Inspect Contacts 项目
         semantic_type: VideoAtom
         updated_at: 'Wed Sep 06 2017 00:10:18 GMT+0000 (UTC)'
         is_public: true
@@ -858,9 +860,9 @@ concepts:
         text: |
           ## 优先使用组合而不是继承
            
-          你可能听过“优先使用组合而不是继承”这一说法。我认为对于现今的编程语言，这种规则很难理解。很多最流行的编程语言经常使用继承，并出现在热门的 UI 框架中，例如 Android 和 iOS SDK。
+          你可能听过“优先使用组合而不是继承”这一说法。我认为对于现今的编程语言，这种原则很难理解。很多最流行的编程语言经常使用继承，并出现在热门的 UI 框架中，例如 Android 和 iOS SDK。
            
-          相反，React 使用组合来构建用户界面。没错，我们会扩展 React.Component，但是不会扩展超过一次。我们使用嵌套和 props 以不同的方式组合元素，而不是扩展基本组件来添加更多 UI 或行为。你最终希望你的 UI 组件是独立、聚焦和_可重复利用的_。
+          相反，React 使用组合来构建用户界面。没错，我们会扩展 React.Component，但是不会扩展超过一次。我们使用嵌套和 props 以不同的方式组合元素，而不是扩展基本组件来添加更多 UI 或行为。你最终希望你的 UI 组件是独立的、目标明确的和_可重复利用的_。
            
           因此，如果你始终没有明白“优先使用组合而不是继承”的含义，那么强烈建议你学习使用 React！
         instructor_notes: ''
