@@ -588,7 +588,7 @@ concepts:
 
           最后，记住 React 仅关心应用的 View 层级。这是用户能看见和互动的层级。因此，我们可以使用 `.createElement()` 向文档中渲染 HTML。但是更多时候，你将使用语法扩展来描述 UI 的外观应该如何。这种语法扩展称之为 JSX，看起来和编写在 JavaScript 文件中的普通 HTML 很像。JSX 编译为调用 React 的 `.createElement()` 方法，并输出要在浏览器中渲染的 HTML。
 
-          在构建 React 应用时一个便利的思维方式是[think in `components`](https://facebook.github.io/react/docs/thinking-in-react.html)。组件代表的是 React 的模块性和可重复利用性。可以将组件类看做生成组件实例的工厂。这些组件类应该遵守[单一功能原则](https://zh.wikipedia.org/wiki/单一功能原则)，只做一件事。如果管理太多不同的任务，建议将组件拆分为更小的子组件。
+          在构建 React 应用时一个便利的思维方式是[组件编程思想](https://facebook.github.io/react/docs/thinking-in-react.html)。组件代表的是 React 的模块性和可重复利用性。可以将组件类看做生成组件实例的工厂。这些组件类应该遵守[单一功能原则](https://zh.wikipedia.org/wiki/单一功能原则)，只做一件事。如果管理太多不同的任务，建议将组件拆分为更小的子组件。
 
           课外资料：
           * [渲染元素](https://facebook.github.io/react/docs/rendering-elements.html) React 文档
@@ -656,7 +656,7 @@ concepts:
           npm install -g create-react-app
           ```
 
-          如果你在安装全局包时发现错误，请随时在npm文档中查看 [这篇文章]（https://docs.npmjs.com/getting-started/fixing-npm-permissions）。 请注意，要了解全局包的安装位置，您可以在控制台中运行 `npm list -g`（更多信息 [这里]（https://stackoverflow.com/questions/5926672/where-does-npm-install-packages））。
+          如果你在安装全局包时发现错误，请随时在npm文档中查看[这篇文章](https://docs.npmjs.com/getting-started/fixing-npm-permissions)。 请注意，要了解全局包的安装位置，您可以在控制台中运行 `npm list -g`（更多信息[这里](https://stackoverflow.com/questions/5926672/where-does-npm-install-packages)）。
         instructor_notes: ''
         resources: null
       - id: 357401
@@ -754,7 +754,7 @@ concepts:
         semantic_type: TextAtom
         updated_at: 'Wed Sep 06 2017 00:10:19 GMT+0000 (UTC)'
         is_public: true
-        text: '> 观察力强的学员可能注意到了，我的 `index.js` 文件不包含你的项目中出现的 `registerServiceWorker();` 这一行。在我录完此视频之后，我在 Create React App 中添加了对 Service Worker 的调用。因为我们在此项目中不使用 Service Workers，因此没有任何影响。但是如果你想删掉，也可以！'
+        text: '> 观察力强的学员可能注意到了，我的 `index.js` 文件没有你项目中出现的 `registerServiceWorker();` 这一行。在我录完此视频之后，我在 Create React App 中添加了对 Service Worker 的调用。因为我们在此项目中不使用 Service Workers，因此没有任何影响。但是如果你想删掉，也可以！'
         instructor_notes: ''
         resources: null
       - id: 357408
