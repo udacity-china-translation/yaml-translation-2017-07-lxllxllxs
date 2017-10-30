@@ -656,7 +656,7 @@ concepts:
           npm install -g create-react-app
           ```
 
-          如果你在安装全局包时发现错误，请随时在npm文档中查看[这篇文章](https://docs.npmjs.com/getting-started/fixing-npm-permissions)。 请注意，要了解全局包的安装位置，您可以在控制台中运行 `npm list -g`（更多信息[这里](https://stackoverflow.com/questions/5926672/where-does-npm-install-packages)）。
+          如果你在安装全局包时发现错误，请随时在 npm 文档中查看[这篇文章](https://docs.npmjs.com/getting-started/fixing-npm-permissions)。 请注意，要了解全局包的安装位置，你可以在控制台中运行 `npm list -g`（更多信息[查看这里](https://stackoverflow.com/questions/5926672/where-does-npm-install-packages)）。
         instructor_notes: ''
         resources: null
       - id: 357401
