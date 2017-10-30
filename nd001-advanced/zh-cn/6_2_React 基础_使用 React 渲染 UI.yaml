@@ -125,7 +125,7 @@ concepts:
         semantic_type: TextAtom
         updated_at: 'Wed Sep 06 2017 00:10:08 GMT+0000 (UTC)'
         is_public: true
-        text: "## 首先观看\n \n在下面的几个视频中，我们将使用 React 的 `.createElement()` 方法。首先，下面是它的签名：\n\n```js\nReact.createElement( /* type */, /* props */, /* content */ );\n```\n\n稍后我们将详细分析！我们将用一个已经设置好的项目开始。暂时不用担心创建项目或跟上进度。很快就会有很多实践内容！我们将在下个部分构建我们的课程内项目 Contacts App。\n \n虽然你将在下面的几个视频中看到，但是确保能了解 React 的 `.createElement()` 方法有多酷！\n\n> ## \uD83D\uDCA1 Trying Out React Code \uD83D\uDCA1\n\n> React 是 JavaScript 的扩展（即 JavaScript 库），但是没有内置在浏览器中。如果你像学习 JavaScript 一样在浏览器控制台中测试 React 代码示例，则无法测试。稍后，我们将了解如何安装和使用 React 环境。然后，你将能够试运行所有示例代码！\n"
+        text: "## 首先观看\n \n在下面的几个视频中，我们将使用 React 的 `.createElement()` 方法。首先，下面是它的签名：\n\n```js\nReact.createElement( /* type */, /* props */, /* content */ );\n```\n\n稍后我们将详细分析！我们将用一个已经设置好的项目开始。暂时不用担心创建项目或跟上进度。很快就会有很多实践内容！我们将在下个部分构建我们的课程内项目 Contacts App。\n \n虽然你将在下面的几个视频中看到，但是确保能了解 React 的 `.createElement()` 方法有多酷！\n\n> ## \uD83D\uDCA1 尝试 React 代码 \uD83D\uDCA1\n\n> React 是 JavaScript 的扩展（即 JavaScript 库），但是没有内置在浏览器中。如果你像学习 JavaScript 一样在浏览器控制台中测试 React 代码示例，则无法测试。稍后，我们将了解如何安装和使用 React 环境。然后，你将能够尝试所有示例代码！\n"
         instructor_notes: ''
         resources: null
       - id: 357375
@@ -534,7 +534,7 @@ concepts:
         text: |-
           ## 组件简介
 
-          到目前为止，我们已经看到 `.createElement()` 和 JSX 可以帮助我们生成一些 HTML。但是，通常我们会使用 React 的主要特征之一：组件,来构建 UI。组件是指可以_重复利用_的代码段，最终负责返回要渲染到网页上的 HTML。很多时候，你将看到用 JSX 编写的 React 组件。
+          到目前为止，我们已经看到 `.createElement()` 和 JSX 可以帮助我们生成一些 HTML。但是，通常我们会使用 React 的主要功能之一：组件,来构建 UI。组件是指可以_重复利用_的代码段，最终负责返回要渲染到网页上的 HTML。很多时候，你将看到用 JSX 编写的 React 组件。
 
           因为 React 的侧重点是简化应用的 UI 构建过程，因此在任何 React 组件类中，只有一个方法是必须的：`render()`。
 
