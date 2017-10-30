@@ -871,7 +871,7 @@ concepts:
     key: 3bb3c78a-196b-4ac0-ac38-a6ab92015fcb
     locale: zh-cn
     version: 1.0.0
-    title: UI 渲染结尾部分
+    title: UI 渲染总结
     semantic_type: Concept
     updated_at: 'Wed Sep 06 2017 00:10:22 GMT+0000 (UTC)'
     is_public: true
@@ -883,7 +883,7 @@ concepts:
         key: 14f1aa1e-9ed7-4024-bac2-3abbf0eac77f
         locale: zh-cn
         version: 1.0.0
-        title: UI 渲染结尾部分
+        title: UI 渲染总结
         semantic_type: VideoAtom
         updated_at: 'Wed Sep 06 2017 00:10:22 GMT+0000 (UTC)'
         is_public: true
